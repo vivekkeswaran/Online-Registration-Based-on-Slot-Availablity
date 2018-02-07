@@ -1,0 +1,111 @@
+.container{
+		width: 95%;
+		margin: 20px auto 0px;
+}
+
+.block{
+	padding: 15px 0px 0px 15px;
+}
+
+.header {
+	color: white;
+	background: #8b0000;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 1px;
+}
+
+.footer {
+	color: white;
+	background: #8b0000;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 0px 0px 10px 10px;
+	padding: 1px;
+}
+
+.inputarea{
+	width:100%;
+}
+
+.inputarea tr, th{
+    padding: 5px 10px 5px 10px;
+    text-align: left;
+}
+
+.slotarea{
+	padding: 15px 0px 0px 0px;
+}
+
+.slotarea th:first-child{
+	vertical-align: initial;
+	padding-right: 20px;
+}
+
+.btn {
+	padding: 8px 10px 8px 10px;
+	font-size: 12px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+}
+
+.msgpos{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+ 
+.my-notify-info, .my-notify-success, .my-notify-warning, .my-notify-error {
+    padding:10px;
+    margin:10px 0;
+ 
+}
+.my-notify-success:before, .my-notify-warning:before {
+    font-family:FontAwesome;
+    margin-right:.2em;
+}
+.my-notify-success:before {
+    content:'\f00c';
+}
+.my-notify-warning:before {
+    content:'\f071';
+}
+.my-notify-success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.my-notify-warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+
+#searchSlot {
+  font-size: 12px;
+  padding: 10px 15px 10px 28px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#tblResults {
+  border-collapse: collapse;
+  width: 95%;
+  border: 1px solid #ddd;
+}
+
+#tblResults th, #tblResults td {
+  text-align: left;
+  padding: 12px;
+}
+
+#tblResults tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#tblResults tr.header, #tblResults tr:hover {
+  background-color: #f1f1f1;
+}
